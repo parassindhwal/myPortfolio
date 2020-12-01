@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav class="container nav-flex">
+      <div class="img-wrapper ">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <button class="hamburger" id="hamburger">
+        <img class="open" src="/images/icon-hamburger.svg" alt="icon-hamburger">
+        <img class="close" src="/images/icon-close.svg" alt="icon-close">
+      </button>
+      <div class="flex2">
+        <ul class="nav-flex">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+        <ul class="nav-flex">
+          <li><a href="#">Login</a></li>
+          <li><a href="#" class="btn cruved-btn">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="menu">
+    <ul id="menu">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li class="hrr">Resource</li>
+        <li>login</li>
+        <li class="btn cruved-btn">Sign Up</li>
+    </ul>
+</div>
+<!-- 
+  <header>
+    <nav class="container nav-flex">
+      <div>
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="inner-flex">
+        <div class="">
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
+        </div>
+        <div class="">
+          <a href="#">Login</a>
+          <a href="#" class="btn cruved-btn">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+  </header> -->
+  <section class="container-white">
+    <div class="container flex rev-col">
+      <div>
+        <h1>More than just shorter links</h1>
+        <p>Build your brand’s recognition and get detailed insights 
+          on how your links are performing.</p>
+        <button class="btn cruved-btn">Get Started</button>  
+      </div>
+      <div class="img-wrapper illustration">
+        <img src="./images/illustration-working.svg" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="gray">
+    <div class="form-div">
+      <form id="form">
+        <input id="link" type="text" placeholder="Shorten a link here"/>
+        <button type="submit" class="btn">Shorten It!</button>
+        <small id="error" class="hidden">Please add a link</small>
+      </form>
+    </div>
+    <div class="parent container" id="parent">
+      <!-- <div style="background-color: #fff;" class="child header-flex">
+        <div><span>https://www.frontendmentor.io/dashboard</span></div>
+        <div>
+          <span>https://9qr.de/9U9YCk</span>
+          <button class="btn">copy</button>
+        </div>
+      </div> -->
+    </div>
+    <div class="sm-container sm-1">
+      <h2>Advanced Statistics</h2>
+      <p>Track how your links are performing across the web with our 
+        advanced statistics dashboard.</p>
+    </div>
+    <div class="boxes container flex">
+      <div class="box box-1">
+        <div class="box-img"><img src="./images/icon-brand-recognition.svg" alt=""></div>
+        <h3>Brand Recognition</h3>
+        <p>Boost your brand recognition with each click. Generic links don’t 
+          mean a thing. Branded links help instil confidence in your content.</p>
+      </div>
+      <div class="box box-2">
+        <div class="box-img"><img src="./images/icon-detailed-records.svg" alt=""></div>
+        <h3>Detailed Records</h3>
+        <p>Gain insights into who is clicking your links. Knowing when and where 
+          people engage with your content helps inform better decisions.</p>
+      </div>
+      <div class="box box-3">
+        <div class="box-img"><img src="./images/icon-fully-customizable.svg" alt=""></div>
+        <h3>Fully Customizable</h3>
+        <p>Improve brand awareness and content discoverability through customizable 
+          links, supercharging audience engagement.</p>
+      </div>
+    </div>
+  </section>
+  <section class="boost">
+    <div class="sm-container">
+      <h2 style="margin-top: 0;">Boost your links today</h2>
+      <button class="btn cruved-btn">Get Started</button> 
+    </div>
+  </section>
+  <footer>
+    <div class="container flex">
+      <div><img src="./images/logo-white.svg" alt=""></div>
+      <div>
+        <ul>
+          <h5>Features</h5>
+          <li><a href="#">Link Shortening</a></li>
+          <li><a href="#">Branded Links</a></li>
+          <li><a href="#">Analytics</a></li>
+        </ul>
+      </div>
+      <div>
+        <div>
+          <ul>
+            <h5>Resources</h5>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <ul>
+          <h5>Company</h5>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-flex">
+        <div class="footer-svg"><img src="./images/icon-facebook.svg" alt=""></div>
+        <div class="footer-svg"><img src="./images/icon-twitter.svg" alt=""></div>
+        <div class="footer-svg"><img src="./images/icon-pinterest.svg" alt=""></div>
+        <div class="footer-svg"><img src="./images/icon-instagram.svg" alt=""></div>
+      </div>
+    </div>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
