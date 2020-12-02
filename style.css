@@ -4,11 +4,6 @@
 
 body {
     margin: 0;
-    background-image: url('./kyun-be.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: red;
 }
 
 a {
